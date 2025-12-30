@@ -5,6 +5,7 @@ import java.lang.reflect.Method;
 class Hello {
 	public int a = 10;
 	public int b = 20;
+	private int d = 50;
 
 	void m1(String s1, String s2) {
 		System.out.println("m1 in Hello");
@@ -57,6 +58,8 @@ public class ReflectionAPIDemo3 {
 				}
 
 			}
+			
+			
 
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
